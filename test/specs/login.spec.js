@@ -1,8 +1,8 @@
-const telaInicialPage = require("../pageobjects/tela-inicial.page");
+const homePage = require("../pages/home.page");
 
 describe('Acessar loja virtual EBAC', () => {
     it('Fazer login com sucesso', async () => {
-        await telaInicialPage.click_enterStoreAdress()
+        await homePage.click_enterStoreAdress()
         
     });
     

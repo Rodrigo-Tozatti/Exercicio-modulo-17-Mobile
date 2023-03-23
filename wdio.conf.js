@@ -1,11 +1,11 @@
-export const config = {
+exports.config = {
     //
     // ====================
     // Runner Configuration
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-
+    
     //
     // ==================
     // Specify Test Files
@@ -57,8 +57,9 @@ export const config = {
         "appium:deviceName": "Android_9.0",
         "appium:automationName": "UIAutomator2",
         "appium:app": "D:\\Repositorio\\Portfolio-Mobile\\app\\loja-ebac.apk",
-        "appium:appWaitActivity": ".ui.login.LoginActivity"
-    }],
+        "appium:appWaitActivity": ".ui.login.LoginActivity",
+        "appium:noReset": "true"
+      }],
     //
     // ===================
     // Test Configurations
@@ -95,7 +96,7 @@ export const config = {
     path: '/wd/hub',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 20000,
+    waitforTimeout: 10000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -133,7 +134,7 @@ export const config = {
     reporters: ['spec'],
 
 
-
+    
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
