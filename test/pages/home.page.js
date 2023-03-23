@@ -3,6 +3,8 @@ class homePage{
         return $('id:button_login_store')
     }
 
+    // -----------------------------------------
+
     async click_enterStoreAdress(){
         await this.#enterStoreAdress.click()
     }
