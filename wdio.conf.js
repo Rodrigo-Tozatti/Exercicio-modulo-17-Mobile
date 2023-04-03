@@ -56,9 +56,9 @@ exports.config = {
         "appium:platformVersion": "9.0",
         "appium:deviceName": "Android_9.0",
         "appium:automationName": "UIAutomator2",
-        "appium:app": "D:\\Repositorio\\Portfolio-Mobile\\app\\loja-ebac.apk",
+        "appium:app": "D:\\Repositorio\\Exercicio-modulo-17-Mobile\\app\\loja-ebac.apk",
         "appium:appWaitActivity": ".ui.login.LoginActivity",
-        "appium:noReset": "true"
+        //"noReset": "true"
       }],
     //
     // ===================

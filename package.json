@@ -1,7 +1,7 @@
 {
   "name": "exercicio-modulo-17-mobile",
   "version": "1.0.0",
-  "description": "Exercicio Mobile Mobulo 17",
+  "description": "Teste Mobile",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/Rodrigo-Tozatti/Exercicio-modulo-17-Mobile#readme",
   "devDependencies": {
-    "@wdio/cli": "^8.6.7",
-    "@wdio/local-runner": "^8.6.7",
-    "@wdio/mocha-framework": "^8.6.6",
-    "@wdio/spec-reporter": "^8.6.6"
+    "@wdio/cli": "^8.6.9",
+    "@wdio/local-runner": "^8.6.9",
+    "@wdio/mocha-framework": "^8.6.8",
+    "@wdio/spec-reporter": "^8.6.8"
   }
 }
